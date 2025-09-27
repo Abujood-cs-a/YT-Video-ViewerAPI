@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Player</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-content">
+        <div class="header">
+            <h1>YouTube Video Player</h1>
+            <p>Enter a YouTube URL or Video ID to watch and get info</p>
+        </div>
+
+        <div class="input-section">
+            <div class="input-group">
+                <input 
+                    type="text" 
+                    id="videoInput" 
+                    class="input-field" 
+                    placeholder="Enter YouTube URL or Video ID (e.g., WaMYDuohE1A)"
+                    value="Qo1IpSXoX38"
+                >
+                <button onclick="loadVideo()" class="btn">Load Video</button>
+            </div>
+        </div>
+
+        <div id="content">
+            <!-- Content will be loaded here -->
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="developer-info">Mohammad AbuDayah</div>
+            <div class="footer-divider"></div>
+            <div class="copyright">© 2025 - All Rights Reserved</div>
+        </div>
+    </footer>
+<script src="main.js"></script>
+</body>
+</html>
